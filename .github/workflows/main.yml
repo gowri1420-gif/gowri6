@@ -1,0 +1,12 @@
+name: Python Test Automation
+
+on:
+push:
+branches: [ &quot;main&quot; ]
+pull_request:
+branches: [ &quot;main&quot; ]
+
+jobs:
+test:
+
+runs-on: ubuntu-latest
